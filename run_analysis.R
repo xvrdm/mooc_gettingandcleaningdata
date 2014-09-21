@@ -1,5 +1,7 @@
+# Load the reshape2 package for analysis
 library(reshape2)
 
+# Download the data from cloudfront
 download.file(
 	"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",
 	"galaxyS.zip",
